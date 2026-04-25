@@ -36,7 +36,7 @@ const Menu = () => {
     localStorage.removeItem("user");
     localStorage.removeItem("otpEmail");
 
-    window.location.href = "https://treading-platform.vercel.app/";
+    window.location.href = "treading-platform.vercel.app";
   };
 
   //  CLICK OUTSIDE CLOSE
