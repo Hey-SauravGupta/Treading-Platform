@@ -3,7 +3,7 @@
 A production-ready full-stack Zerodha clone with authentication, OTP verification, and a responsive trading dashboard.
 
 🌐 Live Demo
-
+treading-platform.vercel.app
 
 🧠 Project Overview
 
