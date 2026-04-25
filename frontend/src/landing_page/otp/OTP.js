@@ -56,7 +56,7 @@ const OTP = () => {
 
         setLoading(true);
         try {
-            const res = await axios.post("https://zerodha-backend-dz81.onrender.com/verify-otp", {
+            const res = await axios.post("https://treading-platform-7ge0.onrender.com/verify-otp", {
                 email,
                 otp: finalOtp,
             });
@@ -100,7 +100,7 @@ const OTP = () => {
     const resendOtp = async () => {
         if (timer > 0) return;
         try {
-            await axios.post("https://zerodha-backend-dz81.onrender.com/resend-otp", { email });
+            await axios.post("https://treading-platform-7ge0.onrender.com/resend-otp", { email });
             setTimer(60);
             setOtp(["", "", "", "", "", ""]);
             alert("New OTP sent to your email!");

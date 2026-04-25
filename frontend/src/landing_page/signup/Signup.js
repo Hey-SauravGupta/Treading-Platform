@@ -24,7 +24,7 @@ function Signup() {
         try {
             setLoading(true);
 
-            const res = await axios.post("https://zerodha-backend-dz81.onrender.com/signup", {
+            const res = await axios.post("https://treading-platform-7ge0.onrender.com/signup", {
                 name,
                 email,
                 password,

@@ -13,7 +13,7 @@ const ForgotPassword = () => {
 
         setLoading(true);
         try {
-            const res = await axios.post("https://zerodha-backend-dz81.onrender.com/forgot-password", { email });
+            const res = await axios.post("https://treading-platform-7ge0.onrender.com/forgot-password", { email });
             if (res.data.success) {
         
                 localStorage.setItem("otpEmail", email);

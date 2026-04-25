@@ -18,7 +18,7 @@ function Login() {
     try {
       setLoading(true);
       const res = await axios.post(
-        "https://zerodha-backend-dz81.onrender.com/login",
+        "https://treading-platform-7ge0.onrender.com/login",
         {
           email,
           password,
