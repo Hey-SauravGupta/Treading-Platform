@@ -80,7 +80,10 @@ function Team() {
             </div>
 
             {/* CSS */}
-            <style jsx>{`
+            <style jsx>
+              
+              
+              {`
         .team {
          padding: 60px 0 100px;
           background: linear-gradient(135deg, #f8f9fa, #eef2f7);
