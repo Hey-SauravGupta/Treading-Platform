@@ -30,7 +30,7 @@ function Login() {
         localStorage.setItem("user", JSON.stringify(res.data.user));
 
         // Redirect to Dashboard (Port 3001)
-        window.location.href = `https://zerodha-dashboard-beryl.vercel.app/?token=${res.data.token}`;
+        window.location.href = `https://treading-platform-v3fq-qemn9ddg4.vercel.app/?token=${res.data.token}`;
       } else {
         alert(res.data.message || "Invalid credentials");
       }

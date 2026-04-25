@@ -19,7 +19,14 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 const uri = process.env.MONGO_URL;
 
-app.use(cors());
+//app.use(cors());
+
+app.use(cors({
+  origin: [
+    "https://treading-platform.vercel.app",
+    "https://treading-platform-v3fq-qemn9ddg4.vercel.app"
+  ]
+}));
 app.use(bodyParser.json());
 
 // const transporter = nodemailer.createTransport({
